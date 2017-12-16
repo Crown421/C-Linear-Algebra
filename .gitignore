@@ -1,3 +1,12 @@
+# Ignore all
+Project/*
+
+# Unignore all with extensions
+!Project/*.*
+
+# Unignore all dirs
+!Project/*/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +35,7 @@
 *.exe
 *.out
 *.app
+
+Ex_Project/
+
+Practicals/
